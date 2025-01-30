@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT GATEWAY</title>
+    <link rel="stylesheet" href="./ALLL.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <div class="whole">
+
+        <div class="nav">
+            <a href="../main.html">
+
+                <div class="log">
+                    <img src="../Image/logo.png" alt="" id="logo">
+        
+                </div>
+            </a>
+            <!-- <div class="search">
+                    <input type="text" placeholder="Search..." class="field" />
+                
+            </div> -->
+            <!-- <div class="both">
+                <div class="wishlist">
+                    Wishlist
+                </div>
+                <div class="cart">
+                    Cart
+                </div>
+            </div> -->
+        </div>
+        <div class="main">
+           
+                <!-- <div class="left">
+                    <p>Payment methods</p>
+                    <hr style="border:1px solid #ccc; margin: 0 15px;">
+                    <div class="methods">
+                        <div onclick="doFun()" id="tColorA" style="color: greenyellow;"><i class="fa-solid fa-credit-card" style="color: greenyellow;"></i> Payment by card</div>
+                        <div onclick="doFunA()" id="tColorB"><i class="fa-solid fa-building-columns"></i>Apple/Google pay </div>
+                        <div onclick="doFunB()" id="tColorC"><i class="fa-solid fa-wallet"></i> </div>
+                    </div>
+                    <hr style="border:1px solid #ccc; margin: 0 15px;">
+                </div> -->
+                <div class="center">
+                    <a href="https://www.shift4shop.com/credit-card-logos.html"><img alt="Credit Card Logos" title="Credit Card Logos" src="https://www.shift4shop.com/images/credit-card-logos/cc-lg-4.png" width="250" height="auto"/></a>
+                    <hr style="border:1px solid #ccc; margin: 0px 50px ;     width: 409px;">
+        
+                    <div class="card-details">
+                        <form>
+                            <p>Card number</p>
+                            <div class="c-number" id="c-number">
+                                <input id="number" class="cc-number" placeholder="Card number" maxlength="19" required>
+                                <i class="fa-solid fa-credit-card" style="margin: 0;"></i>
+                            </div>
+        
+                            <div class="c-details">
+                                <div>
+                                    <p>Expiry date</p>
+                                    <input id="e-date" class="cc-exp" placeholder="MM/YY" required maxlength="5" required>
+                                </div>
+                                <div>
+                                    <p>CVV</p>
+                                    <div class="cvv-box" id="cvv-box">
+                                        <input id="cvv" class="cc-cvv" placeholder="CVV" required maxlength="3" required>
+                                        <i class="fa-solid fa-circle-question" title="3 digits on the back of the card" style="cursor: pointer;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="email">
+                                <p>Email</p>
+                                <input type="email" placeholder="example@email.com" id="email" required>
+                            </div>
+                            <button>PAY NOW</button>
+                        </form>
+                        
+                    </div>
+                </div>
+                
+        
+        
+                <div class="right">
+                    <p>UPI</p>
+                    <hr style="border:1px solid #ccc; margin: 0 15px;">
+                    <div class="details">
+                       <input style="border-bottom: 1px solid grey;" type="text" placeholder="UPI ID/ Mobile Number">
+                    </div>
+                    <br>
+                    <div>OR</div>
+                    <br>
+                    <br>
+                    <div class="scan">
+                        <img src="../Image/scanner.jpg" alt="">
+                        <div>
+                            Scan the QR code using
+                            <div class="pho">
+                                <img src="https://cdn.razorpay.com/app/googlepay.svg" alt="google_pay-app-logo" class="svelte-1ndsu9v">
+                                <img src="https://cdn.razorpay.com/app/phonepe.svg" alt="phonepe-app-logo" class="svelte-1ndsu9v">
+                                <img src="https://cdn.razorpay.com/app/paytm.svg" alt="paytm-app-logo" class="svelte-1ndsu9v">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+    <script src="./aa.js"></script>
+</body>
+</html>
